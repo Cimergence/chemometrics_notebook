@@ -4,7 +4,16 @@ Notebooks following the course MLS-S03 Process Design and Optimization from the 
 ## Installation
 You will need the latest version of Python.
 
-Create a virtual environment and install the requirements:
+Create a virtual environment in your folder:
+```bash
+virtualenv venv
+```
+Activate the virtual environment venv:
+```bash
+source venv/bin/activate
+```
+
+and install the requirements:
 ```bash
 pip install -r requirements.txt
 ```
